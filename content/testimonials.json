@@ -1,0 +1,20 @@
+[
+    {
+        "img": "testimonials1.png",
+        "name": "Dr. John Doe 1",
+        "designation": "Director 1",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”"
+    },
+    {
+        "img": "testimonials2.png",
+        "name": "Dr. John Doe 2",
+        "designation": "Director 2",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”"
+    },
+    {
+        "img": "testimonials3.png",
+        "name": "Dr. John Doe 3",
+        "designation": "Director 3",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”"
+    }
+]

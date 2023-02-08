@@ -1,0 +1,38 @@
+[
+    {
+        "img": "bigcard1.png",
+        "title": "June 2010 - July 2011",
+        "text": "Synthesis of Hydroxyapatite Powder from Egg Shell and its Coating by PLD Process on SS 316L Varying Laser Energy",
+        "btnTxt": "Know more"
+    },
+    {
+        "img": "bigcard2.png",
+        "title": "July 2012 - Nov 2014",
+        "text": "Network Enabled Online Casting Simulation System (E-Foundry)",
+        "btnTxt": "Know more"
+    },
+    {
+        "img": "bigcard3.png",
+        "title": "July 2012 - Nov 2016",
+        "text": "Rapid Casting of Small thin-wall Near-Net Parts using Chemically Bonded Molds",
+        "btnTxt": "Know more"
+    },
+    {
+        "img": "bigcard4.png",
+        "title": "July 2015 - June 2017",
+        "text": "SMART Foundry 2020",
+        "btnTxt": "Know more"
+    },
+    {
+        "img": "bigcard5.png",
+        "title": "Nov 2016 - present",
+        "text": "SANDMAN: Machin Learning / Data Analytics driven Process Optimization",
+        "btnTxt": "Know more"
+    },
+    {
+        "img": "bigcard6.png",
+        "title": "Sep 2020 - present",
+        "text": "PGCSM: Post Graduate Certification Programme in Smart Manufacturing",
+        "btnTxt": "Know more"
+    }
+]

@@ -1,38 +1,32 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
+import HeroCarousel from "../components/HeroCarousel"
+import Introduction from "../components/index-page/Introduction"
+import Awards from "../components/works-page/Awards"
+import Journey from "../components/index-page/Journey"
+import FieldCards from "../components/index-page/FieldCards"
+import SmallWorksSection from "../components/index-page/SmallWorksSection"
+import Testimonials from "../components/index-page/Testimonials"
+import Contact from "../components/index-page/Contact"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <section className="py-5 text-center container">
-      <div className="row py-lg-5">
-        <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
-          />
-
-        </div>
-      </div>
-      <div className="row">
-        <Link to="/about/" className="btn btn-primary my-2">About</Link>
-        <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
-      </div>
-    </section>
+    <HeroCarousel />
+    <Introduction />
+    <Journey />
+    <Awards />
+    <FieldCards />
+    {/* <Work /> */}
+    <SmallWorksSection />
+    <Testimonials />
+    <Contact />
+    <Footer />
   </Layout>
 )
 
 export default IndexPage
 
-export const Head = () => (
-    <Seo />
-)
+export const Head = () => <Seo />

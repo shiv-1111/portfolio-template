@@ -2,5 +2,136 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
+:root {
+  --text-blue: #1e8dec;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  // background: #16222a;
+  // background: -webkit-linear-gradient(
+  //   to right,
+  //   #3a6073,
+  //   #16222a
+  // );
+  // background: linear-gradient(
+  //   to right,
+  //   #3a6073,
+  //   #16222a
+  // );
+}
+
+.my-text-blue {
+  color: var(--text-blue);
+}
+
+.my-bg-blue {
+  background: var(--text-blue);
+}
+
+// .styled-scrollbars {
+//   --scrollbar-foreground: #ccc;
+//   --scrollbar-background: #000;
+//   /* Foreground, Background */
+//   scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+//   &::-webkit-scrollbar {
+//     width: 10px; /* Mostly for vertical scrollbars */
+//     height: 10px; /* Mostly for horizontal scrollbars */
+//   }
+//   &::-webkit-scrollbar-thumb {
+//     /* Foreground */
+//     background: var(--scrollbar-foreground);
+//   }
+//   &::-webkit-scrollbar-track {
+//     /* Background */
+//     background: var(--scrollbar-background);
+//   }
+// }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // background: black;
+  background: transparent;
+  // background: #16222a;
+  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(
+  //   to right,
+  //   #3a6073,
+  //   #16222a
+  // );
+  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(
+  //   to right,
+  //   #3a6073,
+  //   #16222a
+  // );
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  // background: black;
+  // border-radius: 1rem;
+
+  // background: #d0d0d0;
+  background: var(--text-blue);
+  border-radius: 1rem;
+  border: 1px ridge black;
+}
+
+.customScroll {
+  &::-webkit-scrollbar-thumb {
+    // background: #d0d0d0;
+    background: var(--text-blue);
+    border-radius: 1rem;
+    border: 1px ridge black;
+  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1f1f1f;
+}
+
+// custom classes
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+  animation: opacityChng 0.3s ease-in-out forwards;
+}
+
+.fade {
+  animation: opacityChng 0.3s ease-in-out forwards;
+}
+
+.borderBlack {
+  border-bottom: 3rem solid black;
+}
+
+.border-blue-dashed {
+  border: 1px dashed var(--text-blue);
+}
+
+.border-dashed {
+  border: 1px dashed grey;
+}
+
+@keyframes opacityChng {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

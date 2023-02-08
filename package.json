@@ -5,9 +5,12 @@
   "version": "2.0.2",
   "author": "Richard Raduly <richard@raduly.fr>",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
     "@popperjs/core": "^2.11.6",
+    "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^5.2.2",
     "gatsby": "^5.1.0",
+    "gatsby-plugin-emotion": "^8.4.0",
     "gatsby-plugin-gatsby-cloud": "^5.1.0",
     "gatsby-plugin-image": "^3.1.0",
     "gatsby-plugin-manifest": "^5.1.0",
@@ -19,7 +22,9 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.0.0",
-    "sass": "1.49.11"
+    "react-lottie": "^1.2.3",
+    "sass": "1.49.11",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "prettier": "2.5.1"

@@ -1,0 +1,26 @@
+[
+    {
+        "img": "card1.png",
+        "title": "Casting Design and Simulation"
+    },
+    {
+        "img": "card2.png",
+        "title": "Smart Manufacturing"
+    },
+    {
+        "img": "card3.png",
+        "title": "Remanufacturing"
+    },
+    {
+        "img": "card4.png",
+        "title": "Process Optimization"
+    },
+    {
+        "img": "card5.png",
+        "title": "Data Analytics and Machine Learning"
+    },
+    {
+        "img": "card6.png",
+        "title": "Mold and Core making"
+    }
+]
