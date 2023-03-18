@@ -8,7 +8,7 @@ export default function Navigator() {
   return (
     <div className={`${Styles.wrapper} position-fixed`}>
       <div className={`${Styles.myContainer} rounded-circle`}>
-        <div className="h-100 rounded-circle d-flex align-items-center justify-content-center my-bg-blue fs-1 position-relative">
+        <div className="h-100 rounded-circle d-flex align-items-center justify-content-center bg-light fs-1 position-relative">
           <GrDirections />
           <div className="position-absolute end-0 bottom-0 w-100 h-100">
             <div

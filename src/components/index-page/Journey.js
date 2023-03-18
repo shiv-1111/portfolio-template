@@ -25,7 +25,7 @@ const defaultOptions1 = {
 }
 export default function Journey() {
   return (
-    <section className="container-xxl mt-1">
+    <section className="container-xxl mb-5">
       <div className="row pt-5 pb-2">
         <div className="col-4">
           <div className="d-flex justify-content-center align-items-center gap-3">
