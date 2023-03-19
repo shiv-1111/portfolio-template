@@ -10,25 +10,24 @@ export default function Footer() {
     <footer className={` container-fluid bg-black`}>
       <div className="container-xxl">
         <div className="row justify-content-md-between justify-content-center align-items-center">
-          {/* <div className="col-md-4 col-10 p-2 p-md-5 text-start">
+          <div className="col-md-4 col-10 p-2 p-md-5 text-start">
             <div className="text-center">
               <StaticImage
-                src="../images/profile-pic.jpeg"
+                src="../images/testimonials/estimonials1.png"
                 alt="logo"
                 className="bg-light rounded-circle"
                 height={100}
-                width={100}
               />
             </div>
-            <p className="text-light text-center pt-2 opacity-75">
+            <p className="text-light text-center pt-2">
               <small>
                 Casting Design and Simulation, Smart Manufacturing,
                 Remanufacturing, Process Optimization, Data Analytics and
                 Machine Learning, Product design & development, Mold and Core
-                making.
+                making
               </small>
             </p>
-          </div> */}
+          </div>
           <div className="col-md-4 col-10 p-2 p-md-5 d-flex justify-content-around align-items-center text-justify">
             <div className="d-flex justify-content-around gap-3 align-items-start flex-md-column">
               <div>
@@ -71,7 +70,11 @@ export default function Footer() {
                   <IoMdCall className="text-white" />
                 </div>
                 <div>
-                  <p className="text-white">09167481947 (M), 09214463565</p>
+                  <p className="text-white d-flex flex-column align-items-start">
+                    <span>09167481947 (M)</span>
+                    <span>09214463565</span>
+                  </p>
+                  <p></p>
                 </div>
               </div>
             </div>
