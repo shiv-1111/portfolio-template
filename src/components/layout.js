@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container-fluid p-0 styled-scrollbars">
+    <div className="container-fluid p-0 styled-scrollbars bg-white">
       <Navigator />
       {/* <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <NameBar />

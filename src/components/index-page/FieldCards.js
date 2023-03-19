@@ -35,9 +35,9 @@ export default function FieldCards() {
   return (
     <div className="container-xxl mt-1 pb-5">
       <div className="row pb-5">
-        <div className="">
-          <h2 className="pt-5 m-auto fw-bolder fs-5 text-uppercase text-center">
-            Fields of Work
+        <div className="text-center my-5">
+          <h2 className="d-inline py-2 px-4 text-white fw-bold bg-black fs-4 text-uppercase rounded">
+            - Fields of Work -
           </h2>
         </div>
       </div>

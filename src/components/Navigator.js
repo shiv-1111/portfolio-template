@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { GrDirections } from "@react-icons/all-files/gr/GrDirections"
+import { HiHome } from "@react-icons/all-files/hi/HiHome"
 import * as Styles from "../styles/navigator.module.scss"
 
 export default function Navigator() {
@@ -9,7 +9,7 @@ export default function Navigator() {
     <div className={`${Styles.wrapper} position-fixed`}>
       <div className={`${Styles.myContainer} rounded-circle`}>
         <div className="h-100 rounded-circle d-flex align-items-center justify-content-center bg-light fs-1 position-relative">
-          <GrDirections />
+          <HiHome />
           <div className="position-absolute end-0 bottom-0 w-100 h-100">
             <div
               className={`position-relative h-100 w-100 ${Styles.navLinksWRapper}`}

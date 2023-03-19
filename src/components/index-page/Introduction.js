@@ -1,57 +1,59 @@
 import React from "react"
 import info from "../../../content/namebar.json"
 import pageData from "../../../content/intro.json"
-import img from "../../images/testimonials/estimonials1.png"
+import img from "../../images/profile-pic.jpeg"
 import instaImg from "../../images/social-icons/instagram.png"
 import facebookImg from "../../images/social-icons/facebook.png"
-import youtubeImg from "../../images/social-icons/youtube.png"
+import linkedinImg from "../../images/social-icons/linkedin.png"
 
 export default function Introduction() {
   return (
     <section className="container-fluid py-5 bg-light">
       <div className="container-xxl">
         <div className="row">
-          <div className="col-6 d-flex flex-column gap-3 justify-content-center">
-            <div className="">
-              <img src={img} alt="" width="100px" height="100px" />
+          <div className="col-md-6 col-12 d-flex flex-column gap-5 justify-content-center">
+            <div>
+              <img className="w-75" src={img} alt="" />
             </div>
-            <div className="d-flex flex-column justify-content-center gap-2">
+            <div className="d-flex flex-column justify-content-center">
               <h1 className="fs-5 fw-bold my-text-blue">{info.name}</h1>
-              <p className="m-0">
-                {info.designations.map((item, i) => {
-                  return (
-                    <span
-                      className={`fw-bold ${
-                        i !== info.designations.length - 1
-                          ? "border-end border-dark pe-2 me-2"
-                          : ""
-                      }`}
-                    >
-                      {item}
-                    </span>
-                  )
-                })}
-              </p>
-              <p>
-                {info.workFields.map((item, i) => {
-                  return (
-                    <span
-                      className={`fw-bold ${
-                        i !== info.workFields.length - 1
-                          ? "border-end border-dark pe-2 me-2"
-                          : ""
-                      }`}
-                    >
-                      {item}
-                    </span>
-                  )
-                })}
-              </p>
+              <div>
+                <p className="m-0 d-flex flex-wrap">
+                  {info.designations.map((item, i) => {
+                    return (
+                      <span
+                        className={`fw-bold ${
+                          i !== info.designations.length - 1
+                            ? "border-end border-dark pe-2 me-2"
+                            : ""
+                        }`}
+                      >
+                        {item}
+                      </span>
+                    )
+                  })}
+                </p>
+                <p>
+                  {info.workFields.map((item, i) => {
+                    return (
+                      <span
+                        className={`fw-bold ${
+                          i !== info.workFields.length - 1
+                            ? "border-end border-dark pe-2 me-2"
+                            : ""
+                        }`}
+                      >
+                        {item}
+                      </span>
+                    )
+                  })}
+                </p>
+              </div>
             </div>
           </div>
-          <div className="col-6 d-flex flex-column justify-content-center gap-3">
+          <div className="col-md-6 col-12 d-flex flex-column justify-content-center gap-3">
             <div>
-              <h2 className="fw-bold my-text-blue">About</h2>
+              <h2 className="fw-bold my-text-blue pb-3">About</h2>
               {pageData.map((item, id) => {
                 return (
                   <ul className="p-0" key={id}>
@@ -84,7 +86,7 @@ export default function Introduction() {
                 </div>
                 <div>
                   <img
-                    src={youtubeImg}
+                    src={linkedinImg}
                     alt=""
                     className="img-fluid"
                     width={36}

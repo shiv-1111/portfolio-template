@@ -13,18 +13,19 @@ export default function Footer() {
           <div className="col-md-4 col-10 p-2 p-md-5 text-start">
             <div className="text-center">
               <StaticImage
-                src="../images/testimonials/estimonials1.png"
+                src="../images/profile-pic.jpeg"
                 alt="logo"
                 className="bg-light rounded-circle"
                 height={100}
+                width={100}
               />
             </div>
-            <p className="text-light text-center pt-2">
+            <p className="text-light text-center pt-2 opacity-75">
               <small>
                 Casting Design and Simulation, Smart Manufacturing,
                 Remanufacturing, Process Optimization, Data Analytics and
                 Machine Learning, Product design & development, Mold and Core
-                making
+                making.
               </small>
             </p>
           </div>

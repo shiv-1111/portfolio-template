@@ -3,11 +3,11 @@ import data from "../../../content/awards.json"
 
 export default function Awards() {
   return (
-    <section className="py-5">
+    <section className="py-5 bg-light">
       <div className="container">
         <div className="row">
-          <div className="py-2 px-md-4 px-2 ">
-            <h2 className="fw-bold fs-5 text-uppercase text-center">
+          <div className="mb-5 text-center">
+            <h2 className="fw-bold fs-4 text-uppercase d-inline py-2 px-4 text-white rounded bg-black">
               - Awards and Recognition -
             </h2>
             {/* <button className="btn  border-dark py-0">View All</button> */}
@@ -16,8 +16,14 @@ export default function Awards() {
         <div className="row pt-5">
           {data.map((item, index) => {
             return (
-              <div className="mb-5 mx-auto d-flex gap-5 col-5" key={index + 1}>
-                <div className="rounded d-flex align-items-center my-bg-blue h-75">
+              <div
+                className="mb-5 mx-auto d-flex gap-5 col-md-5 col-10"
+                key={index + 1}
+              >
+                <div
+                  className="rounded d-flex align-items-center my-bg-blue"
+                  style={{ height: "4rem" }}
+                >
                   <span className="fw-bold fs-1 text-white ps-5 pe-2 m-auto">
                     {index + 1}
                   </span>
