@@ -3,7 +3,7 @@ import data from "../../../content/awards.json"
 
 export default function Awards() {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5">
       <div className="container">
         <div className="row">
           <div className="mb-5 text-center">

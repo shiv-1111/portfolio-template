@@ -33,30 +33,32 @@ export default function FieldCards() {
   }
 
   return (
-    <div className="container-xxl mt-1 pb-5">
-      <div className="row pb-5">
-        <div className="text-center my-5">
-          <h2 className="d-inline py-2 px-4 text-white fw-bold bg-black fs-4 text-uppercase rounded">
-            - Fields of Work -
-          </h2>
+    <div className="mt-1 pb-5 bg-light">
+      <div className="container-xxl">
+        <div className="row pb-5">
+          <div className="text-center my-5">
+            <h2 className="d-inline py-2 px-4 text-white fw-bold bg-black fs-4 text-uppercase rounded">
+              - Fields of Work -
+            </h2>
+          </div>
         </div>
-      </div>
-      <div className="row container-md m-auto justify-content-center">
-        {PageData.map(data => {
-          return (
-            <div
-              className="col-2 bg-light rounded-4 text-center py-3 mb-5 mx-5 border-blue-dashed"
-              key={uuidv4()}
-            >
-              <div className="mb-2">
-                <GatsbyImage image={getImageByName(data.img)} alt="" />
+        <div className="row container-md m-auto justify-content-center">
+          {PageData.map(data => {
+            return (
+              <div
+                className="col-2 bg-light rounded-4 text-center py-3 mb-5 mx-5 border-blue-dashed"
+                key={uuidv4()}
+              >
+                <div className="mb-2">
+                  <GatsbyImage image={getImageByName(data.img)} alt="" />
+                </div>
+                <div>
+                  <p className="fw-bold">{data.title}</p>
+                </div>
               </div>
-              <div>
-                <p className="fw-bold">{data.title}</p>
-              </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </div>
   )

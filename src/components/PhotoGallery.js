@@ -25,7 +25,7 @@ export default function PhotoGallery({ wrapperClasses, textClasses, display }) {
         <div className="col-4 p-0 d-flex justify-content-center align-items-center ">
           <div className="bg-white rounded m-2">
             <StaticImage
-              src="../images/gallery/photos/DSC08083.JPG"
+              src="../images/gallery/photos/carousel-1.jpg"
               alt="gallery pic"
               className="rounded m-2"
             />
@@ -33,7 +33,7 @@ export default function PhotoGallery({ wrapperClasses, textClasses, display }) {
         </div>
         <div className="col-4 bg-light p-2 rounded d-flex justify-content-center align-items-center">
           <StaticImage
-            src="../images/gallery/photos/DSC08190.JPG"
+            src="../images/gallery/photos/carousel-2.jpg"
             alt="gallery pic"
             className="rounded shadow"
           />
@@ -41,7 +41,7 @@ export default function PhotoGallery({ wrapperClasses, textClasses, display }) {
         <div className="col-4 p-0 rounded d-flex justify-content-center align-items-center">
           <div className="bg-white rounded m-2">
             <StaticImage
-              src="../images/gallery/photos/DSC08221.JPG"
+              src="../images/gallery/photos/carousel-3.jpg"
               alt="gallery pic"
               className="rounded m-2"
             />
