@@ -1,33 +1,8 @@
 [
     {
-        "id": 1,
-        "name": "2005 - 2008",
-        "detail": "NCC Cadet"
-    },
-    {
-        "id": 2,
-        "name": "2009",
-        "detail": "Secured 182nd rank in Production & Industrial Engineering GATE 09"
-    },
-    {
-        "id": 3,
-        "name": "2014",
-        "detail": "Got best technical paper award in CORSYM 2014, IIT Bombay"
-    },
-    {
-        "id": 4,
-        "name": "2015",
-        "detail": "Got Soli Commiserate best paper award at 63rd Indian Foundry Congress, Greater Noida"
-    },
-    {
-        "id": 5,
-        "name": "2016",
-        "detail": "Member of Scientific Committee for Govt. of India R&D Technology Development Meet, Raipur"
-    },
-    {
-        "id": 6,
-        "name": "2019",
-        "detail": "NIFFT Nominated Social Media Champion, MHRD initiative"
+        "id": 8,
+        "name": "2021",
+        "detail": "Executive Member - Academia” in Institute for Technological Excellence (ITEx Institute)"
     },
     {
         "id": 7,
@@ -35,8 +10,33 @@
         "detail": "Peer reviewer of International Journal of Metal Casting"
     },
     {
-        "id": 8,
-        "name": "2021",
-        "detail": "Executive Member - Academia” in Institute for Technological Excellence (ITEx Institute)"
+        "id": 6,
+        "name": "2019",
+        "detail": "NIFFT Nominated Social Media Champion, MHRD initiative"
+    },
+    {
+        "id": 5,
+        "name": "2016",
+        "detail": "Member of Scientific Committee for Govt. of India R&D Technology Development Meet, Raipur"
+    },
+    {
+        "id": 4,
+        "name": "2015",
+        "detail": "Got Soli Commiserate best paper award at 63rd Indian Foundry Congress, Greater Noida"
+    },
+    {
+        "id": 3,
+        "name": "2014",
+        "detail": "Got best technical paper award in CORSYM 2014, IIT Bombay"
+    },
+    {
+        "id": 2,
+        "name": "2009",
+        "detail": "Secured 182nd rank in Production & Industrial Engineering GATE 09"
+    },
+    {
+        "id": 1,
+        "name": "2005 - 2008",
+        "detail": "NCC Cadet"
     }
 ]
