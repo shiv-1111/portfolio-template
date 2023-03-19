@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Modal from "./Modal"
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
+import PhotoGallery from "./PhotoGallery"
 import { auto } from "@popperjs/core"
 
 export default function GalleryContainer() {
@@ -51,7 +52,23 @@ export default function GalleryContainer() {
   }
 
   return (
-    <div className="container-fluid py-4 px-0">
+    <div className="container-fluid py-5">
+      <div className={`d-flex align-items-center justify-content-between`}>
+        <span className={`fw-bold bg-black text-white px-4 py-2 rounded`}>
+          Photo Gallery
+        </span>
+
+        <span className={`text-end py-2 ${viewAllDisplayStatus}`}>
+          <button
+            type="button"
+            className="fw-bold rounded"
+            onClick={handleClick}
+          >
+            View All
+          </button>
+        </span>
+      </div>
+      <PhotoGallery />
       <div>
         <Modal
           data={modalData}
@@ -83,11 +100,6 @@ export default function GalleryContainer() {
             </div>
           )
         })}
-      </div>
-      <div className={`text-end pt-4 px-3 ${viewAllDisplayStatus}`}>
-        <button type="button" className="fw-bold rounded" onClick={handleClick}>
-          View All
-        </button>
       </div>
     </div>
   )

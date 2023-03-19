@@ -10,7 +10,7 @@ import Footer from "../components/Footer"
 export default function works() {
   return (
     <Layout>
-      <HeroCarousel />
+      {/* <HeroCarousel /> */}
       <Awards />
       <FieldCards />
       <Work />

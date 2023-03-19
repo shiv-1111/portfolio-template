@@ -31,7 +31,7 @@ export default function Work() {
   }
 
   return (
-    <div className="container-xxl">
+    <div className="container-xxl py-5">
       <div className="row">
         <div className="bg-black text-white">
           <h2 className="ps-md-4 m-auto py-4 fw-bold fs-5 text-uppercase my-text-blue">

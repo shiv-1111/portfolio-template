@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={` container-fluid bg-black`}>
       <div className="container-xxl">
         <div className="row justify-content-md-between justify-content-center align-items-center">
-          <div className="col-md-4 col-10 p-2 p-md-5 text-start">
+          {/* <div className="col-md-4 col-10 p-2 p-md-5 text-start">
             <div className="text-center">
               <StaticImage
                 src="../images/profile-pic.jpeg"
@@ -28,7 +28,7 @@ export default function Footer() {
                 making.
               </small>
             </p>
-          </div>
+          </div> */}
           <div className="col-md-4 col-10 p-2 p-md-5 d-flex justify-content-around align-items-center text-justify">
             <div className="d-flex justify-content-around gap-3 align-items-start flex-md-column">
               <div>

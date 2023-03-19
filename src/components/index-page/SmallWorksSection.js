@@ -3,6 +3,7 @@ import PageData from "../../../content/work.json"
 import { useStaticQuery, graphql } from "gatsby"
 import BigCard from "../BigCard"
 import { v4 as uuidv4 } from "uuid"
+import { Link } from "gatsby"
 
 export default function SmallWorksSection() {
   const queryData = useStaticQuery(graphql`
@@ -37,7 +38,11 @@ export default function SmallWorksSection() {
           <h2 className="my-auto my-text-blue fw-bold fs-5 text-uppercase ps-2">
             My works
           </h2>
-          <button className="btn text-white border-light py-0">View All</button>
+          <Link to="/works">
+            <button className="btn text-white border-light py-0">
+              View All
+            </button>
+          </Link>
         </div>
       </div>
       <div className="row my-3 overflow-hidden mx-2 rounded">

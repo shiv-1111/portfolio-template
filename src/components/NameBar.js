@@ -54,11 +54,14 @@ export default function NameBar() {
         className="position-absolute start-0 w-100 top-100"
         style={{ zIndex: 100, height: "2vh" }}
       >
-        <div className="h-100" style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
+        <div
+          className="h-100"
+          // style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+        >
           <StaticImage
             src="../../src/images/client-icons/indiaFlag.svg"
             alt="indian flag"
-            className="float-end"
+            className="float-end w-100"
           />
         </div>
       </div>

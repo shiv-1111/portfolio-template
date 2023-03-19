@@ -39,6 +39,12 @@ export default function Testimonials() {
 
   return (
     <div className="container smooth-transition py-5">
+      <div className="mb-5 text-center">
+        <h2 className="fw-bold fs-4 text-uppercase d-inline py-2 px-4 text-white rounded bg-black">
+          - Testimonials -
+        </h2>
+        {/* <button className="btn  border-dark py-0">View All</button> */}
+      </div>
       <FullWidthCard
         wrapperClasses="fade"
         img={getImageByName(PageData[active].img)}
